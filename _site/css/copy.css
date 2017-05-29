@@ -103,6 +103,7 @@ h2 ~ p {
 .header-nav > li {
   display: inline-block;
   margin-left: 1em;
+  color: #ed6e2f;
 }
 .header-nav > li ~ li {
   border-left: 1px solid rgba(255, 255, 255, 0.3);
@@ -122,6 +123,7 @@ h2 ~ p {
 .nav-links a:hover,
 .header-nav a:active {
   color: #ed6e2f;
+}
 }
 .header-nav > li:first-child a {
   color: #ed6e2f;
