@@ -52,14 +52,22 @@ html {
   padding: 0 30px;
 }
 body {
-  font-family: helvetica, arial, sans;
+  display: flex;
+  flex-direction: column;
+  font-family: helvetica, arial, sans-serif;
+  min-height:100vh;
+}
+.content-container {
+  flex:1 1 auto;
+  padding-top: 10vh;
+  width:100%;
+}
+a {
+  color: #f00;
 }
 h1 {
   font-size: 7vw;
   margin-top: 0;
-}
-a {
-  color: #f00;
 }
 h2 ~ p {
   font-size: 0.8em;
@@ -68,7 +76,47 @@ h2 ~ p {
   max-width: 70%;
   text-align: center;
 }
+p {
+  line-height: 1.5;
+  margin: 0.75em;
+}
 
+/*homepage styles*/
+.home-callout {
+  align-items:top;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  padding: 7vh 0;
+}
+.home-callout h3 {
+  color: inherit;
+  margin: .75em;
+  text-transform: uppercase;
+}
+.callout-title {
+  flex: 1 1 0;
+  font-size: 5.75vw;
+  text-align: right;
+  text-transform: uppercase;
+  
+}
+
+.callout-copy {
+  align-items:top;
+  flex: 1 1 50%;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-size: 0.8rem;
+  /*max-width: 600px;*/
+  padding: 0 3vw;
+  width:100%;
+}
+.callout-copy h2{
+  text-align: center;
+  text-transform:uppercase;
+  font-size: 5.75vw;
+}
 /* HEADER STYLES */
 .header {
   background-color: #000;
@@ -156,10 +204,20 @@ h2 ~ p {
 .full-hero {
   background-color: #c7dbfc;
   background-size:cover;
-  background-position: 30% center;
   box-sizing: border-box;
   height: 100vh;
   padding-top: 10vh;
+}
+.full-hero:after {
+  bottom: 2vh;
+  border: 10px solid;
+  border-color: #fff transparent transparent;
+  content:"";
+  height: 0;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  width: 0;
 }
 .hero-home {
   background-image: url(/images/shark.jpg);
@@ -178,6 +236,8 @@ h2 ~ p {
   font-size: 7vw;
   margin-bottom: 0.25em;
 }
+
+
 .hero-content .social-link {
   background-color: rgba(255, 255, 255, 0.8);
   color: #557c83;
@@ -220,17 +280,21 @@ h2 ~ p {
 .bio-wrapper {
   font-size: 24px;
   margin: auto;
-  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+  float: center;
+  /*max-width: 960px;*/
   overflow: hidden;
+  align-content: center;
 }
 .bio-box {
   border: 1px solid black;
   box-sizing: border-box;
-  float: left;
+ 
   font-size: 1rem;
   margin: 40px 1% 0;
   padding: 2%;
-  width: 23%;
+  width: 29%;
 }
 .bio-box h3 {
   color: #fff;
@@ -251,3 +315,4 @@ h2 ~ p {
 .bio-copy a {
   color: green;
 }
+
