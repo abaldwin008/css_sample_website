@@ -1,0 +1,18 @@
+# Site wide configuration
+title: "CSS Sample Website"
+description: "Learn Enough CSS/Layout to be Dangerous tutorial by Lee Donahoe and Michael Hartl. I started this tutorial to better my understanding of CSS, Layout, and Jekyll. I'll soon be using what I learned to set-up my own Jekyll Blog on Github."
+url: "https://abaldwin008.github.io/css_sample_website"
+
+# Jekyll configuration
+#repository: https://github.com/abaldwin008/css_sample_website
+baseurl: "/css_sample_website"
+
+# Site owner
+owner:
+  name: "Amy Baldwin"
+  email:
+  twitter: 
+  google:
+  bio: 
+  avatar: 
+  disqus-shortname: "abaldwin008"

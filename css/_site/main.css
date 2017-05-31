@@ -221,7 +221,7 @@ p {
   width: 0;
 }
 .hero-home {
-  background-image: url(/css_sample_website/images/shark.jpg);
+  background-image: url(/images/shark.jpg);
   background-position: center top;
 }
 .hero-content {
