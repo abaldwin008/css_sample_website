@@ -9,7 +9,7 @@ layout: default
 			<ul class="blog-title-list">
 			{% for post in site.posts limit:5 %}
 				<li>
-					<a href="{{ post.url }}">{{ post.title }}</a>
+					<a href="/css_sample_website{{ post.url }}">{{ post.title }}</a>
 					<span>Posted by: {{ post.postAuthor }} </span>
 					<span><img src="{{ post.gravatar }}"></span>
 					<span>{{ post.date | date: '%B %d, %Y' }}</span>
@@ -21,7 +21,7 @@ layout: default
 			{% for post in site.posts %}
 			<div class="blog-posts">
 				<header class="post-header">
-					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					<h2><a href="/css_sample_website{{ post.url }}">{{ post.title }}</a></h2>
 					<div class="post-byline">
 						<img src="{{ post.gravatar }}">
 						<a href="{{ post.authorTwitter }}" class="social-link">Tw</a>
