@@ -122,6 +122,18 @@ p {
   text-transform:uppercase;
   font-size: 5.75vw;
 }
+
+.home-section h4{
+  margin-bottom: 0.5em;
+  text-align:center;
+}
+.home-section .post-header {
+  text-align: center;
+}
+.home-section .blog-posts {
+  width: 75%;
+  margin:auto;
+}
 /* HEADER STYLES */
 .header {
   background-color: #000;
