@@ -19,20 +19,7 @@ layout: default
 		</div>
 		<div class="col col-content blog-previews">
 			{% for post in site.posts %}
-			<div class="blog-posts">
-				<header class="post-header">
-					<h2><a href="/css_sample_website{{ post.url }}">{{ post.title }}</a></h2>
-					<div class="post-byline">
-						<img src="{{ post.gravatar }}">
-						<a href="{{ post.authorTwitter }}" class="social-link">Tw</a>
-						by: {{ post.postAuthor }}
-						<span>Posted: {{ post.date | date: '%B %d, %Y' }} </span>
-					</div>
-				</header>
-				<div class="posts-image" style="background-image:url('/css_sample_website/images/shark.jpg">
-				</div>
-				{{ post.excerpt }}
-			</div>
+				{% include postRecent.html %}
 			{% endfor %}
 		</div>
 	</div>
