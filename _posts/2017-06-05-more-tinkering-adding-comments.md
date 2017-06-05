@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 2nd Test Post
+title: More tinkering
 postHero: /images/large/slide1.jpg
-postAuthor: Me, Myself, and I
+postAuthor: Amy
 authorTwitter: https://twitter.com/amyb008
 gravatar: https://1.gravatar.com/avatar/d44fe63cf420551f2b70463077b14f06
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
 ---
 
-Call me *Ishmael*. Some years ago–*never mind how long
+*Ishmael*. Some years ago–*never mind how long
 precisely*–having little or no money in my purse, and nothing
 particular to interest me on shore, I thought I would sail about a little
 and see the watery part of the world. It is a way I have of driving off

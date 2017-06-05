@@ -1,21 +1,12 @@
 ---
 layout: post
-title: 2nd Test Post
+title: Something wrong with the blog index
 postHero: /images/large/slide1.jpg
-postAuthor: Me, Myself, and I
+postAuthor: Amy
 authorTwitter: https://twitter.com/amyb008
 gravatar: https://1.gravatar.com/avatar/d44fe63cf420551f2b70463077b14f06
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
 ---
-
-Call me *Ishmael*. Some years ago–*never mind how long
-precisely*–having little or no money in my purse, and nothing
-particular to interest me on shore, I thought I would sail about a little
-and see the watery part of the world. It is a way I have of driving off
-the spleen and regulating the circulation.
-
-<img class="pull-left" src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg"/>
-
 Whenever I find myself growing grim about the mouth; whenever it is a damp,
 drizzly November in my soul; whenever I find myself involuntarily pausing
 before coffin warehouses, and bringing up the rear of every funeral I meet;
@@ -24,6 +15,11 @@ requires a strong moral principle to prevent me from deliberately stepping
 into the street, and methodically knocking people’s hats off—then, I
 account it high time to get to sea as soon as I can. This is my substitute
 for pistol and ball.
+
+
+<img class="pull-left" src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg"/>
+
+W
 
 With a philosophical flourish Cato throws himself upon
 his sword; I quietly take to the ship. There is nothing surprising in this.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2nd Test Post
+title: Liquid tags not working in CSS
 postHero: /images/large/slide1.jpg
 postAuthor: Me, Myself, and I
 authorTwitter: https://twitter.com/amyb008
