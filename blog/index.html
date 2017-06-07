@@ -24,7 +24,10 @@ layout: default
 			      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 			      <div class="post-byline">
 			        <img src="{{ post.gravatar }}">
-			        <a href="{{ post.authorTwitter }}" class="social-link">Tw</a>
+			        <a href="{{ post.authorTwitter }}" 
+			        class="social-link">
+			        	<span class="fa fa-twitter"></span>
+			        </a>
 			        by: {{ post.postAuthor }}
 			        <span> - {{ post.date | date: '%B %d, %Y' }}</span>
 			      </div>
