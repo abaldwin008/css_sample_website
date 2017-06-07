@@ -369,6 +369,7 @@ p {
   display: flex;
 }
 .col-two .col-aside {
+  display: none;
   flex: 0 0 20em;
   order: 1;
 }
@@ -435,6 +436,7 @@ p {
 
 /*Blog Styles*/
 .blog-recent {
+  display: none
   text-align: right;
 }
 .blog-title-list {
@@ -533,3 +535,4 @@ p {
 .post-byline {
   line-height: 1;
 }
+

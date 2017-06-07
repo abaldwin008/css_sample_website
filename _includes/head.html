@@ -1,4 +1,10 @@
 <head>
+	{% if page.title %}
+		<title>{{ page.title }} | Test Pate</title>
+	{% else %}
+		<title>Test Page: Don't Panic</title>
+	{% endif %}
+
 	<title>Test Page: Don't Panic</title>
 	<link href="{{ site.baseurl }}/favicon.png" rel="icon">
 	<meta charset="utf-8">
