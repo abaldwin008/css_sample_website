@@ -15,17 +15,21 @@ layout: default
 			<span class="post-byline">by: {{ page.postAuthor }}</span><br>
 			<span>{{ page.date| date: '%B %d, %Y'}}</span>
 		</div>
-	</header>
-	<aside class="post-aside">
-		<ul class="blog-title-list">
-			{% for post in site.posts limit:5 %}
-			<li>
-				<a href="{{ post.url }}">{{ post.titlel }}</a>
-				<span>Posted: {{ post.date | date:'%B %d, %Y'}}</span>
-			</li>
-			{% endfor %}
-		</ul>
-	</aside>
+	</header> 
+	<div class ="col-two blog-cols">
+		<div class="col col-aside blog-recent">
+		<aside class="post-aside">
+			<ul class="blog-title-list">
+				{% for post in site.posts limit:5 %}
+				<li>
+					<a href="{{ post.url }}">{{ post.title }}</a>
+					<span>Posted: {{ post.date | date:'%B %d, %Y'}}</span>
+				</li>
+				{% endfor %}
+			</ul>
+		</aside>
+		</div>
+	</div>
 	<div class="post-content">
 		{{ content }}
 	</div>

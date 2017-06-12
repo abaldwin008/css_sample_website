@@ -536,3 +536,124 @@ p {
   line-height: 1;
 }
 
+/* DROPDOWN STYLING */
+
+.dropdown {
+  position: relative;
+}
+.drop-trigger {
+  display: inline-block;
+  padding-right: 1.5em;
+  position: relative;
+}
+.drop-trigger:after {
+  border: 0.3em solid;
+  border-color: #fff transparent transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 0;
+  top: 0.3em;
+  width: 0;
+}
+.drop-menu {
+  display: none;
+  list-style: none;
+  padding: 1em 0 0;
+  position: absolute;
+  right: 0;
+  z-index: 9;
+}
+.drop-menu li {
+  background-color: #fff;
+}
+.drop-menu a {
+  color: #333;
+  display: block;
+}
+/* SHOW THE DROPDOWN */
+.dropdown:hover .drop-menu {
+  display: block;
+}
+
+
+@media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding:0;
+  }
+  .post-aside {
+    display: none;
+  }
+  /*Home Styles*/
+  .bio-box {
+    float: none;
+    font-size: 1.3rem;
+    width:auto;
+  }
+  .bio-wrapper {
+    display: block;
+  }
+  /*Header Styles*/
+  .header-nav {
+    padding: 2vh 1em 0 0;
+  }
+  .header-nav > li {
+    margin-left: 0.25em;
+  }
+  .header-nav > li ~li {
+    padding-left: 0.25em;
+
+  }
+  .nav-links a {
+    font-size: 3.25vw;
+  }
+  .header-logo {
+    left: auto;
+  }
+    /*Gallery Styles*/
+    .gallery {
+      flex-direction: column;
+    }
+    .gallery .col {
+      padding-bottom: 3em; /*needs adj for diff screen sizes*/
+
+    }
+    .gallery .gallery-thumbs {
+      flex: 1 1 0;
+      height: auto;
+      white-space: nowrap;
+      width: 100vw;
+    }
+    .gallery-thumbs > div {
+      display: inline-block;
+    }
+    .gallery-thumbs img {
+      height: 7vh;
+      margin: 0 10px 0 0;
+      width:auto;
+    }
+    .gallery .gallery-info {
+      flex: 1 1 auto;
+    }
+  }
+  /* BLOG STYLES */
+    .blog-recent {
+      display: none;
+    }
+    .blog-previews {
+      padding: 0;
+    }
+    .post-byline img {
+      height: 25px;
+      margin-right: 0px;
+    }
+    .post-header img,
+    .post-header .social-link {
+      margin-right: 0px;
+      height: 25px;
+      width: 25px;
+      font-size: medium;
+    }
+}
+
