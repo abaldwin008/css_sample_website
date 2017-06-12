@@ -369,7 +369,7 @@ p {
   display: flex;
 }
 .col-two .col-aside {
-  display: none;
+  display: inline-block;
   flex: 0 0 20em;
   order: 1;
 }
@@ -436,11 +436,11 @@ p {
 
 /*Blog Styles*/
 .blog-recent {
-  display: none
+  display: inline-block;
   text-align: right;
 }
 .blog-title-list {
-  display:none;
+  display: inline-block;
   list-style: none;
   padding: 0;
   font-size: .8em;
@@ -591,6 +591,10 @@ p {
     font-size: 1.3rem;
     width:auto;
   }
+  .bio-box img {
+    width:100%;
+    height:auto;
+  }
   .bio-wrapper {
     display: block;
   }
@@ -636,7 +640,7 @@ p {
     .gallery .gallery-info {
       flex: 1 1 auto;
     }
-  }
+  
   /* BLOG STYLES */
     .blog-recent {
       display: none;
@@ -654,6 +658,16 @@ p {
       height: 25px;
       width: 25px;
       font-size: medium;
+    }
+
+    .col-two .col-aside,
+    .blog-title-list {
+      display:none;
+    }
+
+    p img {
+      width:100%;
+      height:auto;
     }
 }
 
